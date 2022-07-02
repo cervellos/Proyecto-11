@@ -12,7 +12,7 @@
     <div class="formulario">
       <fieldset class="formulario__field">
         Datos Personales
-        <form action="" class="formulario__form">
+        <form action="" class="formulario__form formulario__personales">
           <label for="nombre">Nombre: *</label>
           <input type="text" id="nombre" name="nombre" />
 
@@ -30,16 +30,27 @@
             <option value="venezolano">venezolano</option>
           </select>
 
-          <label for="nombre">Nombre: *</label>
-          <input type="text" id="nombre" name="nombre" />
+          <label for="contanos">contanos un poco de vos...: *</label>
+          <input type="text" id="contanos" name="contanos" />
 
-          <label for="nombre">Nombre: *</label>
-          <input type="text" id="nombre" name="nombre" />
+          <label for="sexo"
+            >Sexo: * <input type="radio" id="sexo" name="sexo" /> Femenino
+            <input type="radio" id="sexo" name="sexo" /> Masculino
+            <input type="radio" id="sexo" name="sexo" /> Otro
+          </label>
         </form>
       </fieldset>
     </div>
     <div class="formulario">
-      <fieldset class="formulario__field">Datos de contacto</fieldset>
+      <fieldset class="formulario__field">
+        Datos de contacto
+        <form action="" class="formulario__form formulario__contacto">
+          <label for="telefono">Telefono:</label>
+          <input type="text" name="telefono" id="telefono" placeholder="" />
+          <label for=""> </label>
+          <input type="text" />
+        </form>
+      </fieldset>
     </div>
     <div class="formulario">
       <fieldset class="formulario__field">Actvidades</fieldset>
