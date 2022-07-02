@@ -7,10 +7,20 @@ box-sizing: border-box;
 font-size: 16px;
 }
 
+/*  --colorPrimario: #1F2023;    (negro)
+    --colorSecundario: #A6C1B9;  (gris azulado claro)
+    --colorTerciario: #4C6C62;   (gris)
+    --colorCuarternario:#2B3D37; (gris oscuro)
+    --colorQuinario:#D6E2DE;     (gris claro)
+    --borderCaja: 5px;
+    --borderRadioTitle: 15px;*/
 :root {
     --colorPrimario: #1F2023;
     --colorSecundario: #A6C1B9;
     --colorTerciario: #4C6C62;
     --colorCuarternario:#2B3D37;
+    --colorQuinario:#D6E2DE;
+    --borderCaja: 5px;
+    --borderRadioTitle: 15px;
 
 }
