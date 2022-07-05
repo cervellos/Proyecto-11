@@ -30,10 +30,11 @@ body {
   font-family: "Contrail One", "Poppins";
 }
 
-#cuerpo {
-  width: 1000px;
-  border: 25px;
-  justify-content: center;
+.cuerpo {
+  width: 1250px;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .titulo__barra__top {
   width: 100%;
@@ -52,10 +53,19 @@ body {
 
 .formulario__field {
   background-color: var(--colorSecundario);
-  display: block;
+  display: flexbox;
 }
 .titulo {
   font-size: 100px;
   display: flexbox;
   justify-content: center;
+}
+.formulario {
+  display: flexbox;
+}
+.formulario__legend {
+  background-color: #2b3d37;
+}
+label {
+  display: block;
 }
