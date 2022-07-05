@@ -66,6 +66,6 @@ body {
 .formulario__legend {
   background-color: #2b3d37;
 }
-label {
+.formulario__label--block {
   display: block;
 }
