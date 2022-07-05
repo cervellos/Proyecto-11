@@ -82,3 +82,7 @@ h1{
  input, textarea:hover {
     background-color: #5ce1e6;
 }
+
+.condiciones {
+    color: black;
+}
