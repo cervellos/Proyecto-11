@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Proyecto 11</title>
+   <!--  <link rel="stylesheet" href="css/estilos-retro.css"> -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Afiliación</title>
   </head>
   <body>
     <h1 class="titulo">Vení al GYM!</h1>
@@ -19,7 +20,7 @@
           <label for="apellido">Apellido: *</label>
           <input type="text" id="apellido" name="apellido" />
 
-          <label for="documuento">documento: *</label>
+          <label for="documento">Documento: *</label>
           <input type="text" id="documento" name="documento" />
 
           <label for="nacionalidad">Nacionalidad: *</label>
@@ -30,8 +31,8 @@
             <option value="venezolano">venezolano</option>
           </select>
 
-          <label for="contanos">contanos un poco de vos...: *</label>
-          <input type="text" id="contanos" name="contanos" />
+          <label for="contanos">Contanos un poco de vos...: *</label>
+          <textarea id="contanos" name="contanos"></textarea>
 
           <label for="sexo"
             >Sexo: * <input type="radio" id="sexo" name="sexo" /> Femenino
@@ -46,19 +47,9 @@
         <legend>Datos de contacto</legend>
         <form action="" class="formulario__form formulario__contacto">
           <label for="telefono">Teléfono:</label>
-          <input
-            type="text"
-            name="telefono"
-            id="telefono"
-            placeholder="Código de área y número"
-          />
+          <input type="text" name="telefono" id="telefono" placeholder="Código de área y número"/>
           <label for="correo">Direccion de correo electrónico:*</label>
-          <input
-            type="text"
-            id="correo"
-            name="correo"
-            placeholder="Ej: mail@gmail.com"
-          />
+          <input type="text" id="correo" name="correo" placeholder="Ej: mail@gmail.com"/>
         </form>
       </fieldset>
     </div>
@@ -67,53 +58,24 @@
         Actvidades
         <form action="" class="formulario__form formulario__actividades">
           <h2>Por favor, indicá cuáles actividades te interesan.</h2>
+
           <legend>Sede Palermo:</legend>
-          <input type="checkbox" name="palermo" id="palermo" /><label
-            for="palermo"
-            >Básquet</label
-          >
-          <input type="checkbox" name="palermo" id="palermo" /><label
-            for="palermo"
-            >Boxeo</label
-          >
-          <input type="checkbox" name="palermo" id="palermo" /><label
-            for="palermo"
-            >Fútbol</label
-          >
-          <input type="checkbox" name="palermo" id="palermo" /><label
-            for="palermo"
-            >Tenis</label
-          >
+          <input type="checkbox" name="palermo" id="palermo" /><label for="palermo">Básquet</label>
+          <input type="checkbox" name="palermo" id="palermo" /><label for="palermo">Boxeo</label>
+          <input type="checkbox" name="palermo" id="palermo" /><label for="palermo">Fútbol</label>
+          <input type="checkbox" name="palermo" id="palermo" /><label for="palermo">Tenis</label>
 
           <legend>Sede Rosario:</legend>
-          <input type="checkbox" name="rosario" id="rosario" /><label
-            for="rosario"
-            >Básquet</label
-          >
-          <input type="checkbox" name="rosario" id="rosario" /><label
-            for="rosario"
-            >Fútbol</label
-          >
-          <input type="checkbox" name="rosario" id="rosario" /><label
-            for="rosario"
-            >Rugby</label
-          >
-          <input type="checkbox" name="rosario" id="rosario" /><label
-            for="rosario"
-            >Voley</label
-          >
+          <input type="checkbox" name="rosario" id="rosario" /><label for="rosario">Básquet</label>
+          <input type="checkbox" name="rosario" id="rosario" /><label for="rosario">Fútbol</label>
+          <input type="checkbox" name="rosario" id="rosario" /><label for="rosario">Rugby</label>
+          <input type="checkbox" name="rosario" id="rosario" /><label for="rosario">Voley</label>
         </form>
       </fieldset>
     </div>
     <div class="condiciones">
-      <input type="checkbox" name="condicion" id="condicion" /><label
-        for="condicion"
-        >Acepto las condiciones*</label
-      >
-      <input type="checkbox" name="novedades" id="novedades" /><label
-        for="novedades"
-        >Deseo recibir novedades</label
-      >
+      <input type="checkbox" name="condicion" id="condicion" /><label for="condicion">Acepto las condiciones*</label>
+      <input type="checkbox" name="novedades" id="novedades" /><label for="novedades">Deseo recibir novedades</label>
       <h2>*:campo obligatorio</h2>
       <button class="condicones__boton">iniciar afilación</button>
       <button class="condicones__boton">Restablecer</button>
