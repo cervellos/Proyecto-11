@@ -20,13 +20,13 @@
           <legend class="formulario__legend">Datos Personales</legend>
           <form action="" class="formulario__form formulario__personales">
             <label for="nombre">Nombre: *</label>
-            <input type="text" id="nombre" name="nombre" />
+            <input type="text" id="nombre" name="nombre" required>
 
             <label for="apellido">Apellido: *</label>
-            <input type="text" id="apellido" name="apellido" />
+            <input type="text" id="apellido" name="apellido" required>
 
             <label for="documento">Documento: *</label>
-            <input type="text" id="documento" name="documento" />
+            <input type="text" id="documento" name="documento" required>
 
             <label for="nacionalidad">Nacionalidad: *</label>
             <select name="nacionalidad" id="nacionalidad">
@@ -59,13 +59,8 @@
               id="telefono"
               placeholder="Código de área y número"
             />
-            <label for="correo">Direccion de correo electrónico:*</label>
-            <input
-              type="text"
-              id="correo"
-              name="correo"
-              placeholder="Ej: mail@gmail.com"
-            />
+            <label for="correo">Direccion de correo electrónico: *</label>
+            <input type="email" id="correo" name="correo" placeholder="Ej: mail@gmail.com" required>
           </form>
         </fieldset>
       </div>
@@ -124,8 +119,8 @@
           >Deseo recibir novedades</label
         >
         <h2>*:campo obligatorio</h2>
-        <button class="condicones__boton">iniciar afilación</button>
-        <button class="condicones__boton">Restablecer</button>
+        <button type="submit" class="condicones__boton">Iniciar afilación</button>
+        <button type="reset" class="condicones__boton">Restablecer</button>
       </div>
     </main>
     <script src="js/main.js"></script>
