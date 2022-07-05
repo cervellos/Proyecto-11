@@ -15,113 +15,115 @@
       <div class="titulo__barra__bot"></div>
     </header>
     <main class="cuerpo">
-      <div class="formulario">
-        <fieldset class="formulario__field">
-          <legend class="formulario__legend">Datos Personales</legend>
-          
-            <label for="nombre">Nombre: *</label>
-            <input type="text" id="nombre" name="nombre" required>
+      <form action="">
+        <div class="formulario">
+          <fieldset class="formulario__field">
+            <legend class="formulario__legend">Datos Personales</legend>
+            
+              <label for="nombre">Nombre: *</label>
+              <input type="text" id="nombre" name="nombre" required>
 
-            <label for="apellido">Apellido: *</label>
-            <input type="text" id="apellido" name="apellido" required>
+              <label for="apellido">Apellido: *</label>
+              <input type="text" id="apellido" name="apellido" required>
 
-            <label for="documento">Documento: *</label>
-            <input type="text" id="documento" name="documento" required>
+              <label for="documento">Documento: *</label>
+              <input type="text" id="documento" name="documento" required>
 
-            <label for="nacionalidad">Nacionalidad: *</label>
-            <select name="nacionalidad" id="nacionalidad">
-              <option value="seleccionar">-seleccionar-</option>
-              <option value="argentino">argentino</option>
-              <option value="uruguayo">uruguayo</option>
-              <option value="venezolano">venezolano</option>
-            </select>
+              <label for="nacionalidad">Nacionalidad: *</label>
+              <select name="nacionalidad" id="nacionalidad">
+                <option value="seleccionar">-seleccionar-</option>
+                <option value="argentino">argentino</option>
+                <option value="uruguayo">uruguayo</option>
+                <option value="venezolano">venezolano</option>
+              </select>
 
-            <label for="contanos">Contanos un poco de vos...: *</label>
-            <textarea id="contanos" name="contanos"></textarea>
+              <label for="contanos">Contanos un poco de vos...: *</label>
+              <textarea id="contanos" name="contanos"></textarea>
 
-            <label for="sexo"
-              >Sexo: * <input type="radio" id="sexo" name="sexo" /> Femenino
-              <input type="radio" id="sexo" name="sexo" /> Masculino
-              <input type="radio" id="sexo" name="sexo" /> Otro
-            </label>
-          </form>
-        </fieldset>
-      </div>
-      <div class="formulario__puntos"></div>
-      <div class="formulario">
-        <fieldset class="formulario__field">
-          <legend class="formulario__legend">Datos de contacto</legend>
-          
-            <label for="telefono">Teléfono:</label>
-            <input
-              type="text"
-              name="telefono"
-              id="telefono"
-              placeholder="Código de área y número"
-            />
-            <label for="correo">Direccion de correo electrónico: *</label>
-            <input type="email" id="correo" name="correo" placeholder="Ej: mail@gmail.com" required>
-          
-        </fieldset>
-      </div>
-      <div class="formulario__puntos"></div>
-      <div class="formulario">
-        <form action="" class="formulario__form">
-        <fieldset class="formulario__field">
-          <legend class="formulario__legend">Actvidades</legend>
-            <h2>Por favor, indicá cuáles actividades te interesan.</h2>
-
-            <legend>Sede Palermo:</legend>
-            <input type="checkbox" name="palermo" id="palermo" /><label
-              for="palermo"
-              >Básquet</label
-            >
-            <input type="checkbox" name="palermo" id="palermo" /><label
-              for="palermo"
-              >Boxeo</label
-            >
-            <input type="checkbox" name="palermo" id="palermo" /><label
-              for="palermo"
-              >Fútbol</label
-            >
-            <input type="checkbox" name="palermo" id="palermo" /><label
-              for="palermo"
-              >Tenis</label
-            >
-
-            <legend>Sede Rosario:</legend>
-            <input type="checkbox" name="rosario" id="rosario" /><label
-              for="rosario"
-              >Básquet</label
-            >
-            <input type="checkbox" name="rosario" id="rosario" /><label
-              for="rosario"
-              >Fútbol</label
-            >
-            <input type="checkbox" name="rosario" id="rosario" /><label
-              for="rosario"
-              >Rugby</label
-            >
-            <input type="checkbox" name="rosario" id="rosario" /><label
-              for="rosario"
-              >Voley</label
-            >
+              <label for="sexo"
+                >Sexo: * <input type="radio" id="sexo" name="sexo" /> Femenino
+                <input type="radio" id="sexo" name="sexo" /> Masculino
+                <input type="radio" id="sexo" name="sexo" /> Otro
+              </label>
+            </form>
           </fieldset>
         </div>
-        <div class="condiciones">
-        <input type="checkbox" name="condicion" id="condicion" /><label
-          for="condicion"
-          >Acepto las condiciones*</label
-        >
-        <input type="checkbox" name="novedades" id="novedades" /><label
-          for="novedades"
-          >Deseo recibir novedades</label
-        >
-        <h2>*:campo obligatorio</h2>
-        <button type="submit" class="condicones__boton">Iniciar afilación</button>
-        <button type="reset" class="condicones__boton">Restablecer</button>
+        <div class="formulario__puntos"></div>
+        <div class="formulario">
+          <fieldset class="formulario__field">
+            <legend class="formulario__legend">Datos de contacto</legend>
+            
+              <label for="telefono">Teléfono:</label>
+              <input
+                type="text"
+                name="telefono"
+                id="telefono"
+                placeholder="Código de área y número"
+              />
+              <label for="correo">Direccion de correo electrónico: *</label>
+              <input type="email" id="correo" name="correo" placeholder="Ej: mail@gmail.com" required>
+            
+          </fieldset>
+        </div>
+        <div class="formulario__puntos"></div>
+        <div class="formulario">
+          
+          <fieldset class="formulario__field">
+            <legend class="formulario__legend">Actvidades</legend>
+              <h2>Por favor, indicá cuáles actividades te interesan.</h2>
+
+              <legend>Sede Palermo:</legend>
+              <input type="checkbox" name="palermo" id="palermo" /><label
+                for="palermo"
+                >Básquet</label
+              >
+              <input type="checkbox" name="palermo" id="palermo" /><label
+                for="palermo"
+                >Boxeo</label
+              >
+              <input type="checkbox" name="palermo" id="palermo" /><label
+                for="palermo"
+                >Fútbol</label
+              >
+              <input type="checkbox" name="palermo" id="palermo" /><label
+                for="palermo"
+                >Tenis</label
+              >
+
+              <legend>Sede Rosario:</legend>
+              <input type="checkbox" name="rosario" id="rosario" /><label
+                for="rosario"
+                >Básquet</label
+              >
+              <input type="checkbox" name="rosario" id="rosario" /><label
+                for="rosario"
+                >Fútbol</label
+              >
+              <input type="checkbox" name="rosario" id="rosario" /><label
+                for="rosario"
+                >Rugby</label
+              >
+              <input type="checkbox" name="rosario" id="rosario" /><label
+                for="rosario"
+                >Voley</label
+              >
+            </fieldset>
+          </div>
+          <div class="condiciones">
+            <input type="checkbox" name="condicion" id="condicion" /><label
+              for="condicion"
+              >Acepto las condiciones*</label
+            >
+            <input type="checkbox" name="novedades" id="novedades" /><label
+              for="novedades"
+              >Deseo recibir novedades</label
+            >
+            <h2>*:campo obligatorio</h2>
+            <button type="submit" class="condicones__boton">Iniciar afilación</button>
+            <button type="reset" class="condicones__boton">Restablecer</button>
+          </div>
+
       </form>
-      </div>
     </main>
     <script src="js/main.js"></script>
   </body>
