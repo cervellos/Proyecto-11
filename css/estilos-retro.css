@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crimson+Text&family=Shrikhand&display=swap');
+
+/*Reset*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 16px;
+}
+
+
+/* :root {
+    --colorPrimario: #E6CCB2;    (beige)
+    --colorSecundario: #E63727;  (rojo)
+    --colorTerciario:#A82417;    (rojo oscuro)
+    --colorCuaternario: #13AEBF; (celeste)
+    --colorQuinario:#438A91;     (celeste oscuro)
+    --borde: 5px;
+    --bordeRadio:15px;
+
+} */
+:root {
+    --colorPrimario: #E6CCB2;
+    --colorSecundario: #E63727;
+    --colorTerciario:#A82417;
+    --colorCuaternario: #13AEBF;
+    --colorQuinario:#438A91;
+    --borde: 5px;
+    --bordeRadio:15px;
+}
+
+body {
+    background-color: var(--colorPrimario);
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Shrikhand', cursive;
+    background-color: white;
+    color: var(--colorSecundario);
+    font-size: 80px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: var(--borde) solid var(--colorSecundario) ;
+
+}
+
+.formulario{
+     border-radius: var(--bordeRadio);
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 20px;
+ 
+ }
+ 
+ .formulario__field {
+     border: var(--borde) solid var(--colorQuinario);
+     border-radius: var(--bordeRadio);
+     text-align: center;
+     background-color: var(--colorCuaternario);
+     
+ }
+ 
+ button {
+     font-family: 'Crimson Text', serif;
+     font-size: 25px;
+     color: white;
+     background-color: var(--colorTerciario);
+     border-radius: var(--bordeRadio);
+     border: var(--borde) solid var(--colorSecundario) ;
+     width: 200px;
+     height: 50px;
+ 
+ }
+
+ input, textarea:hover {
+    background-color: #5ce1e6;
+}
