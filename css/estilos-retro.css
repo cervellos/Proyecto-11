@@ -62,7 +62,7 @@ h1{
      margin-right: 20%;
      margin-top: 20px;
      text-align: left;
-     padding-left: 40px;
+     padding-left: 50px;
  }
 
 .formulario__legend {
@@ -80,6 +80,10 @@ h1{
 label , h2, legend {
     font-size: 25px;
 
+}
+
+.formulario__field input {
+    margin: 10px;
 }
 .formulario__label--block {
     display: block;
@@ -99,6 +103,7 @@ button {
      width: 200px;
      height: 50px;
      text-align: center;
+     margin: 10px;
 }
 
 input:hover, textarea:hover {

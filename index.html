@@ -23,22 +23,22 @@
             <label for="nombre" class="formulario__label--block"
               >Nombre: *</label
             >
-            <input type="text" id="nombre" name="nombre" required />
+            <input type="text" id="nombre" name="nombre" required>
 
             <label for="apellido" class="formulario__label--block"
               >Apellido: *</label
             >
-            <input type="text" id="apellido" name="apellido" required />
+            <input type="text" id="apellido" name="apellido" required>
 
             <label for="documento" class="formulario__label--block"
               >Documento: *</label
             >
-            <input type="text" id="documento" name="documento" required />
+            <input type="text" id="documento" name="documento" required>
 
             <label for="nacionalidad" class="formulario__label--block"
               >Nacionalidad: *</label
             >
-            <select name="nacionalidad" id="nacionalidad">
+            <select name="nacionalidad" id="nacionalidad" required>
               <option value="seleccionar">-seleccionar-</option>
               <option value="argentino">argentino</option>
               <option value="uruguayo">uruguayo</option>
@@ -48,12 +48,12 @@
             <label for="contanos" class="formulario__label--block"
               >Contanos un poco de vos...: *</label
             >
-            <textarea id="contanos" name="contanos"></textarea>
+            <textarea id="contanos" name="contanos" required></textarea>
 
             <label for="sexo" class="formulario__label--block"
-              >Sexo: * <input type="radio" id="sexo" name="sexo" /> Femenino
-              <input type="radio" id="sexo" name="sexo" /> Masculino
-              <input type="radio" id="sexo" name="sexo" /> Otro
+              >Sexo: * <input type="radio" id="sexo" name="sexo" required> Femenino
+              <input type="radio" id="sexo" name="sexo"> Masculino
+              <input type="radio" id="sexo" name="sexo"> Otro
             </label>
           </fieldset>
         </div>
@@ -69,8 +69,7 @@
               type="text"
               name="telefono"
               id="telefono"
-              placeholder="Código de área y número"
-            />
+              placeholder="Código de área y número">
             <label for="correo" class="formulario__label--block"
               >Direccion de correo electrónico: *</label
             >
@@ -79,8 +78,7 @@
               id="correo"
               name="correo"
               placeholder="Ej: mail@gmail.com"
-              required
-            />
+              required>
           </fieldset>
         </div>
         <div class="formulario__puntos">.....</div>
@@ -90,37 +88,37 @@
             <h2>Por favor, indicá cuáles actividades te interesan.</h2>
 
             <legend>Sede Palermo:</legend>
-            <input type="checkbox" name="palermo" id="palermo" /><label
+            <input type="checkbox" name="palermo" id="palermo" ><label
               for="palermo"
               >Básquet</label
             >
-            <input type="checkbox" name="palermo" id="palermo" /><label
+            <input type="checkbox" name="palermo" id="palermo" ><label
               for="palermo"
               >Boxeo</label
             >
-            <input type="checkbox" name="palermo" id="palermo" /><label
+            <input type="checkbox" name="palermo" id="palermo" ><label
               for="palermo"
               >Fútbol</label
             >
-            <input type="checkbox" name="palermo" id="palermo" /><label
+            <input type="checkbox" name="palermo" id="palermo" ><label
               for="palermo"
               >Tenis</label
             >
 
             <legend>Sede Rosario:</legend>
-            <input type="checkbox" name="rosario" id="rosario" /><label
+            <input type="checkbox" name="rosario" id="rosario" ><label
               for="rosario"
               >Básquet</label
             >
-            <input type="checkbox" name="rosario" id="rosario" /><label
+            <input type="checkbox" name="rosario" id="rosario" ><label
               for="rosario"
               >Fútbol</label
             >
-            <input type="checkbox" name="rosario" id="rosario" /><label
+            <input type="checkbox" name="rosario" id="rosario" ><label
               for="rosario"
               >Rugby</label
             >
-            <input type="checkbox" name="rosario" id="rosario" /><label
+            <input type="checkbox" name="rosario" id="rosario" ><label
               for="rosario"
               >Voley</label
             >
@@ -128,12 +126,12 @@
         </div>
         <div class="condiciones">
           <div class="condiciones__checkbox">
-             <input type="checkbox" name="condicion" id="condicion" /><label for="condicion">Acepto las condiciones*</label>
+             <input type="checkbox" name="condicion" id="condicion" ><label for="condicion">Acepto las condiciones*</label>
           </div>
           <div class="condiciones__checkbox">
-            <input type="checkbox" name="novedades" id="novedades" /><label for="novedades">Deseo recibir novedades</label>
+            <input type="checkbox" name="novedades" id="novedades" ><label for="novedades">Deseo recibir novedades</label>
           </div>
-          <h2>*:campo obligatorio</h2>
+          <h2>* :campo obligatorio</h2>
           <button type="submit" class="condicones__boton">
             Iniciar afilación
           </button>
