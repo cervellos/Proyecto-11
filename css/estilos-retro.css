@@ -65,12 +65,12 @@ h1 {
 
 .formulario__legend {
   font-family: "Bree Serif", serif;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   background-color: var(--colorSecundario);
   border-radius: 15px;
   width: fit-content;
-  height: 50px;
+  height: fit-content;
   text-align: center;
   padding: 3px;
 }
@@ -119,4 +119,73 @@ textarea:hover {
 .condiciones h2 {
   text-align: left;
   margin: 10px;
+}
+
+.formulario__puntos {
+  display: none;
+}
+
+@media screen and (max-width: 960px){
+
+        h1{
+          font-size: 60px;
+          margin-left: 20%;
+          margin-right: 20%;
+        }
+
+        .formulario__field {
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+
+        .formulario__legend {
+          font-size: 40px;
+        }
+        .condiciones {
+          margin-left: 5%;
+        }
+
+        label, h2 , legend{
+          font-size: 20px;
+        }
+        
+        input {
+          height: 22px;
+        }
+
+}
+
+@media screen and (max-width: 480px) {
+        h1{
+          font-size: 40px;
+          margin-left: 10%;
+          margin-right: 10%;
+        }
+
+        .formulario__field {
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+
+        .formulario__legend {
+          font-size: 20px;
+        }
+
+        .condiciones {
+          margin-left: 5%;
+        }
+
+        button {
+          font-size: 20px;
+          width: fit-content;
+        }
+
+        label, h2 , legend{
+          font-size: 16px; 
+        }
+
+        input {
+            height: 18px;
+            
+        }
 }
