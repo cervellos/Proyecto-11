@@ -28,13 +28,23 @@ body {
   background-color: var(--colorPrimario);
   color: var(--colorQuinario);
   font-family: "Contrail One", "Poppins";
+  font-size: 20px;
+  text-align: center;
+}
+.cuerpo__head {
+  width: 1500px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.cuerpo {
-  width: 1250px;
-  padding: 25px;
+.cuerpo__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1500px;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 50px;
 }
 .titulo__barra__top {
   width: 100%;
@@ -53,18 +63,23 @@ body {
 
 .formulario__field {
   background-color: var(--colorSecundario);
-  display: flexbox;
+  width: 1000px;
+  text-align: center;
 }
 .titulo {
   font-size: 100px;
-  display: flexbox;
+  display: flex;
   justify-content: center;
 }
-.formulario {
-  display: flexbox;
-}
+
 .formulario__legend {
-  background-color: #2b3d37;
+  background-color: var(--colorCuarternario);
+  border-radius: 15px;
+  width: fit-content;
+  height: 50px;
+  text-align: center;
+  padding: 3px;
+  font-size: 30px;
 }
 .formulario__label--block {
   display: block;

@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crimson+Text&family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crimson+Text&family=Shrikhand&display=swap");
 
 /*Reset*/
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
 }
-
 
 /* :root {
     --colorPrimario: #E6CCB2;    (beige)
@@ -21,101 +20,103 @@ font-size: 16px;
 
 } */
 :root {
-    --colorPrimario: #E6CCB2;
-    --colorSecundario: #E63727;
-    --colorTerciario:#A82417;
-    --colorCuaternario: #13AEBF;
-    --colorQuinario:#438A91;
-    --colorSexagenario: #5ce1e6;
-    --borde: 5px;
-    --bordeRadio:15px;
+  --colorPrimario: #e6ccb2;
+  --colorSecundario: #e63727;
+  --colorTerciario: #a82417;
+  --colorCuaternario: #13aebf;
+  --colorQuinario: #438a91;
+  --colorSexagenario: #5ce1e6;
+  --borde: 5px;
+  --bordeRadio: 15px;
 }
 
 body {
-    background-color: var(--colorPrimario);
-    font-family: 'Crimson Text', serif;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+  background-color: var(--colorPrimario);
+  font-family: "Crimson Text", serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
-h1{
-    font-family: 'Shrikhand', cursive;
-    background-color: white;
-    color: var(--colorSecundario);
-    font-size: 80px;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 20px;
-    border-radius: 40px;
-    border: var(--borde) solid var(--colorSecundario) ;
+h1 {
+  font-family: "Shrikhand", cursive;
+  background-color: white;
+  color: var(--colorSecundario);
+  font-size: 80px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  border-radius: 40px;
+  border: var(--borde) solid var(--colorSecundario);
 }
 
- 
 .formulario__field {
-     border: var(--borde) solid var(--colorQuinario);
-     border-radius: var(--bordeRadio);
-     background-color: var(--colorCuaternario);
-     padding: 20px ;
-     margin-left: 20%;
-     margin-right: 20%;
-     margin-top: 20px;
-     text-align: left;
-     padding-left: 50px;
- }
+  border: var(--borde) solid var(--colorQuinario);
+  border-radius: var(--bordeRadio);
+  background-color: var(--colorCuaternario);
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 50px;
+}
 
 .formulario__legend {
-    font-family: 'Bree Serif', serif;
-    font-size: 30px;
-    color: white;
-    background-color: var(--colorSecundario);
-    border-radius: 15px;
-    width: fit-content;
-    height: 50px;
-    text-align: center;
-    padding: 3px;
+  font-family: "Bree Serif", serif;
+  font-size: 30px;
+  color: white;
+  background-color: var(--colorSecundario);
+  border-radius: 15px;
+  width: fit-content;
+  height: 50px;
+  text-align: center;
+  padding: 3px;
 }
 
-label , h2, legend {
-    font-size: 25px;
-
+label,
+h2,
+legend {
+  font-size: 25px;
 }
 
 .formulario__field input {
-    margin: 10px;
+  margin: 10px;
 }
 .formulario__label--block {
-    display: block;
+  display: block;
 }
 
 input {
-    height: 25px;
+  height: 25px;
 }
 
 button {
-     font-family: 'Crimson Text', serif;
-     font-size: 25px;
-     color: white;
-     background-color: var(--colorSecundario);
-     border-radius: var(--bordeRadio);
-     border: var(--borde) solid var(--colorTerciario) ;
-     width: 200px;
-     height: 50px;
-     text-align: center;
-     margin: 10px;
+  font-family: "Crimson Text", serif;
+  font-size: 25px;
+  color: white;
+  background-color: var(--colorSecundario);
+  border-radius: var(--bordeRadio);
+  border: var(--borde) solid var(--colorTerciario);
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: 10px;
 }
 
-input:hover, textarea:hover {
-    background-color: var(--colorSexagenario);
+input:hover,
+textarea:hover {
+  background-color: var(--colorSexagenario);
 }
 
 .condiciones {
-    color: black;
-    margin-left: 20%;
+  color: black;
+  margin-left: 20%;
 }
 
-.condiciones__checkbox, .condiciones h2 {
-    text-align: left;
-    margin: 10px;
+.condiciones__checkbox,
+.condiciones h2 {
+  text-align: left;
+  margin: 10px;
 }
