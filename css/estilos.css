@@ -14,6 +14,7 @@
     --colorQuinario:#D6E2DE;     (gris claro)
     --borderCaja: 5px;
     --borderRadioTitle: 15px;*/
+
 :root {
   --colorPrimario: #1f2023;
   --colorSecundario: #a6c1b9;
@@ -32,21 +33,21 @@ body {
   text-align: center;
 }
 .cuerpo__head {
-  width: 1500px;
-  padding-left: 50px;
+
+  padding-left: 10vh;
+  padding-right: 10vh;
   padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 0 auto;
-  position: relative;
+  margin-bottom: 20px;
+
 }
 
 .cuerpo__main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1500px;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 10vh;
+  padding-right: 10vh;
+
 }
 .titulo__barra__top {
   width: 1000px;
@@ -63,14 +64,16 @@ body {
   border-left: 40px solid transparent;
   border-bottom: 30px solid var(--colorTerciario);
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .formulario__field {
-  background-color: var(--colorSecundario);
+  background-color: var(--colorQuinario);
   color: var(--colorPrimario);
   width: 1000px;
   text-align: center;
   border-radius: var(--borderCaja);
+
 }
 .titulo {
   font-size: 70px;
@@ -79,43 +82,73 @@ body {
 }
 
 .formulario__legend {
-  background-color: var(--colorCuarternario);
+  background-color: var(--colorTerciario);
   font-family: "Roboto";
-  border-radius: 15px;
+  font-weight: 600;
+  border-radius: 10px;
   width: fit-content;
-  height: 50px;
+  height: 40px;
   text-align: left;
   padding: 3px;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   margin: var(--borderRadioTitle);
+  text-transform: uppercase;
 }
 .formulario__label--block {
   display: block;
 }
 input {
   box-sizing: content-box;
+  margin: 5px;
 }
-input:hover {
-  color: var(--colorTerciario);
+input:focus {
+  background-color: var(--colorTerciario);
+  color:white;
+
 }
 
 .formulario__field--text-align {
   text-align: left;
+  padding: 15px;
 }
 .condicones__boton {
+  font-size: 16px;
   background-color: var(--colorCuarternario);
-
+  margin: 20px;
   color: white;
-
+  border-radius: var(--borderCaja);
   border: 1px solid var(--colorTerciario);
+  width: 130px;
+  height: 50px;
+  text-align: center;
 }
 
-.formulario__puntos {
+/* .formulario__puntos {
+  width: 450px;
   border-top-style: dotted;
   border-top-width: 20px;
+  color: var(--colorSecundario);
+  
+} */
+
+.formulario__puntos {
+  color: var(--colorSecundario);
+  font-size: 80px;
+  letter-spacing: 10px;
+  font-weight: bolder;
+
 }
 
-::first-letter {
-  font-size: bold;
+span{
+  font-size: 25px;
+}
+
+.condiciones__checkbox, .condiciones h2{
+    text-align: left;
+    margin: 10px;
+}
+
+.formulario__field:focus-within{
+  background-color: var(--colorSecundario);
 }
