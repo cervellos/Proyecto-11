@@ -8,6 +8,13 @@
   font-family: "Space Grotesk", sans-serif;
   color: var(--colorQuinario);
 }
+/* :root {
+  --colorPrimario: #134074;     (celeste)
+  --colorSecundario: #13315c;   (celeste oscuro)
+  --colorTerciario: #0b2545;    (azul)
+  --colorCuaternario: #8da9c4;  (celeste claro)
+  --colorQuinario: #eef4ed;      (blanco)
+} */
 
 :root {
   --colorPrimario: #134074;
