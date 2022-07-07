@@ -31,6 +31,7 @@ body {
   border: none;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 5%;
 }
 
 .nombre {
@@ -41,9 +42,7 @@ body {
 main.cuerpo {
   display: flex;
   flex-direction: column;
-  background-image: url(../img/suntanned-athletic-shirtless-male-with-virtual-glasses-on-his-head-posing-over-grey-background\\(
-      3\
-    ).jpg);
+  background-image: url(../img/imagen-hombre.jpg);
   background-size: cover;
 }
 .formulario__form {
@@ -55,12 +54,24 @@ h1 {
   text-align: center;
   display: block;
 }
+
 legend {
+  color: var(--colorCuaternario);
+  text-align: center;
+  margin: 10px;
+}
+span {
   color: var(--colorCuaternario);
 }
 input {
   color: var(--colorSecundario);
   height: 2em;
+  margin: 5px;
+}
+
+input:focus, textarea:focus{
+  background-color: var(--colorTerciario);
+  color: var(--colorQuinario);
 }
 .formulario__legend {
   font-size: 2em;
@@ -78,4 +89,25 @@ button {
   color: var(--colorSecundario);
   padding: 10px;
   border-radius: 5px;
+  margin: 15px;
+  margin-left: 15%;
+  font-weight: bold;
+  
+}
+
+.formulario__puntos {
+  display: none;
+}
+
+.formulario__field--text-align{
+  text-align: center;
+  display: inline;
+  margin-left: 15%; 
+}
+.formulario__field--text-align h2{
+  font-size: 24px;
+}
+
+.condiciones {
+  margin-left: 10%;
 }
