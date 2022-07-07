@@ -102,7 +102,7 @@ input {
   box-sizing: content-box;
   margin: 5px;
 }
-input:focus {
+input:focus, textarea:focus{
   background-color: var(--colorTerciario);
   color:white;
 

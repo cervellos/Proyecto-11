@@ -75,6 +75,12 @@ h1 {
   padding: 3px;
 }
 
+span{
+  font-family: "Bree Serif", serif;
+  font-size: 50px;
+  color: white;
+}
+
 label,
 h2,
 legend {
@@ -105,10 +111,11 @@ button {
   margin: 10px;
 }
 
-input:hover,
-textarea:hover {
+input:focus,
+textarea:focus {
   background-color: var(--colorSexagenario);
 }
+
 
 .condiciones {
   color: black;
