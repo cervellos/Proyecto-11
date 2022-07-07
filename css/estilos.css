@@ -26,8 +26,8 @@
 
 body {
   background-color: var(--colorPrimario);
-  color: var(--colorQuinario);
-  font-family: "Contrail One", "Poppins";
+  color: white;
+  font-family: "Poppins", "Contrail One";
   font-size: 20px;
   text-align: center;
 }
@@ -36,6 +36,8 @@ body {
   padding-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .cuerpo__main {
@@ -47,40 +49,73 @@ body {
   padding-top: 50px;
 }
 .titulo__barra__top {
-  width: 100%;
+  width: 1000px;
   height: 0px;
-  border-right: 60px solid transparent;
-  border-left: 60px solid transparent;
-  border-top: 50px solid var(--colorTerciario);
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-top: 30px solid var(--colorTerciario);
+  margin: 0 auto;
 }
 .titulo__barra__bot {
-  width: 100%;
+  width: 1000px;
   height: 0px;
-  border-right: 60px solid transparent;
-  border-left: 60px solid transparent;
-  border-bottom: 50px solid var(--colorTerciario);
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 30px solid var(--colorTerciario);
+  margin: 0 auto;
 }
 
 .formulario__field {
   background-color: var(--colorSecundario);
+  color: var(--colorPrimario);
   width: 1000px;
   text-align: center;
+  border-radius: var(--borderCaja);
 }
 .titulo {
-  font-size: 100px;
+  font-size: 70px;
   display: flex;
   justify-content: center;
 }
 
 .formulario__legend {
   background-color: var(--colorCuarternario);
+  font-family: "Roboto";
   border-radius: 15px;
   width: fit-content;
   height: 50px;
-  text-align: center;
+  text-align: left;
   padding: 3px;
   font-size: 30px;
+  color: white;
+  margin: var(--borderRadioTitle);
 }
 .formulario__label--block {
   display: block;
+}
+input {
+  box-sizing: content-box;
+}
+input:hover {
+  color: var(--colorTerciario);
+}
+
+.formulario__field--text-align {
+  text-align: left;
+}
+.condicones__boton {
+  background-color: var(--colorCuarternario);
+
+  color: white;
+
+  border: 1px solid var(--colorTerciario);
+}
+
+.formulario__puntos {
+  border-top-style: dotted;
+  border-top-width: 20px;
+}
+
+::first-letter {
+  font-size: bold;
 }
