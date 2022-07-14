@@ -1,81 +1,88 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 1em;
-  font-family: "Space Grotesk", sans-serif;
-  color: var(--colorQuinario);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--colorQuinario);
+
+    
+    
 }
 
 :root {
-  --colorPrimario: #134074;
-  --colorSecundario: #13315c;
-  --colorTerciario: #0b2545;
-  --colorCuaternario: #8da9c4;
-  --colorQuinario: #eef4ed;
+    --colorPrimario:#134074;
+    --colorSecundario:#13315c;
+    --colorTerciario:#0b2545;
+    --colorCuaternario:#8da9c4;
+    --colorQuinario:#eef4ed;
 }
 
 body {
-  background-color: var(--colorTerciario);
-  color: var(--colorQuinario);
+   background-color: var(--colorTerciario);
+   color: var(--colorQuinario);
 }
 
 .formulario__field {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-
-  border: none;
-  margin-top: 50px;
-  margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    border: none;
+    margin-top:50px ;
+    margin-bottom: 50px;
 }
+
 
 .nombre {
-  display: inline-block;
-  width: 100px;
-  margin: auto;
+    display: inline-block;
+    width: 100px;
+    margin: auto;
 }
 main.cuerpo {
-  display: flex;
-  flex-direction: column;
-  background-image: url(../img/suntanned-athletic-shirtless-male-with-virtual-glasses-on-his-head-posing-over-grey-background\\(
-      3\
-    ).jpg);
-  background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/suntanned-athletic-shirtless-male-with-virtual-glasses-on-his-head-posing-over-grey-background\ \(3\).jpg);
+    background-size: cover;
 }
-.formulario__form {
-  width: 500px;
+.formulario__form{
+    width: 500px;
 }
 
-h1 {
-  font-size: 3em;
-  text-align: center;
-  display: block;
+h1{
+    
+    font-size: 3em;
+    text-align: center;
+    display: block;
+
 }
 legend {
-  color: var(--colorCuaternario);
+    color: var(--colorCuaternario);
 }
-input {
-  color: var(--colorSecundario);
-  height: 2em;
+input{
+    color: var(--colorSecundario);
+    height: 2em;
 }
 .formulario__legend {
-  font-size: 2em;
+    font-size: 2em;
 }
 textarea {
-  color: var(--colorSecundario);
+    color:var(--colorSecundario) ;
 }
-label {
-  font-size: 1.5em;
+label{
+    font-size: 1.5em;
+
 }
 .formulario__puntos {
-  text-align: center;
+    text-align: center;
 }
-button {
-  color: var(--colorSecundario);
-  padding: 10px;
-  border-radius: 5px;
+button{
+    color:var(--colorSecundario) ;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+
