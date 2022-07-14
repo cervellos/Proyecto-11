@@ -33,12 +33,10 @@ body {
   text-align: center;
 }
 .cuerpo__head {
-
   padding-left: 10vh;
   padding-right: 10vh;
   padding-top: 50px;
   margin-bottom: 20px;
-
 }
 
 .cuerpo__main {
@@ -47,7 +45,6 @@ body {
   justify-content: center;
   padding-left: 10vh;
   padding-right: 10vh;
-
 }
 .titulo__barra__top {
   width: 1000px;
@@ -73,7 +70,6 @@ body {
   width: 1000px;
   text-align: center;
   border-radius: var(--borderCaja);
-
 }
 .titulo {
   font-size: 70px;
@@ -100,12 +96,12 @@ body {
 }
 input {
   box-sizing: content-box;
-  margin: 5px;
+  margin: 10px;
 }
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
   background-color: var(--colorTerciario);
-  color:white;
-
+  color: white;
 }
 
 .formulario__field--text-align {
@@ -137,18 +133,26 @@ input:focus, textarea:focus{
   font-size: 80px;
   letter-spacing: 10px;
   font-weight: bolder;
-
 }
 
-span{
+span {
   font-size: 25px;
 }
 
-.condiciones__checkbox, .condiciones h2{
-    text-align: left;
-    margin: 10px;
+.condiciones__checkbox,
+.condiciones h2 {
+  text-align: left;
+  margin: 10px;
 }
 
-.formulario__field:focus-within{
+.formulario__field:focus-within {
   background-color: var(--colorSecundario);
+}
+
+.input__barra {
+  width: 80%;
+  border-radius: 5px;
+  border: solid 1px gray;
+  text-align: center;
+  padding: 2px 5px;
 }
