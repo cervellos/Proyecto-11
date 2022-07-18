@@ -1,7 +1,7 @@
 const btnSwitch = document.querySelector("#switch");
 let btnMagic = document.getElementById("btnMagic");
 
-let clicks = 0;
+let clicks = 0; //contador de clicks para el bucle
 btnSwitch.addEventListener("click", function () {
   if (clicks === 0) {
     btnMagic.href = "css/estilos-retro.css";
