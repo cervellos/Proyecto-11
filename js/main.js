@@ -1,12 +1,16 @@
 const btnSwitch = document.querySelector("#switch");
 let btnMagic = document.getElementById("btnMagic");
 
+let clicks = 0;
 btnSwitch.addEventListener("click", function () {
-  if (btnMagic.href == "http://127.0.0.1:5503/css/estilos.css") {
+  if (clicks === 0) {
     btnMagic.href = "css/estilos-retro.css";
-  } else if (btnMagic.href == "http://127.0.0.1:5503/css/estilos-retro.css") {
+    clicks = 1;
+  } else if (clicks === 1) {
     btnMagic.href = "css/estilos-futuro.css";
-  } else {
+    clicks = 2;
+  } else if ((clicks = 2)) {
     btnMagic.href = "css/estilos.css";
+    clicks = 0;
   }
 });
